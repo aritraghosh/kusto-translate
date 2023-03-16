@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t mt-5 flex sm:flex-row flex-col justify-center items-center px-3 space-y-3 sm:mb-0 mb-3">
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/whoiskatrin"
+          href="https://twitter.com/aritraghosh94"
           className="group"
-          aria-label="Kate on Twitter"
+          aria-label="Aritra on Twitter"
         >
           <svg
             aria-hidden="true"
@@ -17,9 +17,9 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/whoiskatrin/sql-translator"
+          href="https://github.com/https://github.com/aritraghosh/kusto-translate"
           className="group"
-          aria-label="SQL Translator on GitHub"
+          aria-label="KQL Translator on GitHub"
         >
           <svg
             aria-hidden="true"

@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import translateToSQL from "../../src/translateToSQL";
+import translateToKQL from "../../src/translateToKQL";
 
 if (!process.env.OPENAI_API_KEY) {
   throw new Error(
@@ -13,7 +13,7 @@ export default async function handler(
 ) {
   const { inputText, tableSchema } = req.body;
   try {
-    const result = await translateToSQL(
+    const result = await translateToKQL(
       inputText,
       process.env.OPENAI_API_KEY,
       tableSchema
