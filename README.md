@@ -1,4 +1,4 @@
-** This project is a fork from [SQL translator](https://github.com/whoiskatrin/sql-translator).
+**This project is a fork from [SQL translator](https://github.com/whoiskatrin/sql-translator)** 
 
 
 # KQL Translator
@@ -6,7 +6,6 @@ KQL stands for [Kusto Query language](https://learn.microsoft.com/en-us/azure/da
 
 KQL Translator is a tool for converting natural language queries into KQL code using artificial intelligence. This project is 100% free and open source.
 
-<img src="https://github.com/whoiskatrin/sql-translator/blob/main/beta.png" width="600" />
 
 ## Features
 
